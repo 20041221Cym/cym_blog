@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="探索人工智能与技术的前沿思考">
+  <title>AI Blog</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container hdr-inner">
+      <a class="site-brand" href="index.html">AI<span class="brand-dot">·</span>Blog</a>
+      <nav class="site-nav">
+        <a href="index.html" class="nav-link active">文章</a>
+        <a href="about.html" class="nav-link">关于</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1 class="hero-title">探索 <em>AI</em> 与技术的前沿思考</h1>
+      <p class="hero-sub">记录学习、实验与洞察</p>
+    </section>
+    <div class="tag-filter" id="tagFilter"></div>
+    <div class="post-grid" id="postGrid"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><span id="footerText"></span></div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+  <script>renderHome();</script>
+</body>
+</html>
